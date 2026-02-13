@@ -1,3 +1,4 @@
+# nomer 1
 number1 = 20
 number2 = 4
 
@@ -8,12 +9,24 @@ print (number1 - number2)
 print (number1 % number2)
 
 
-
+# nomer 2
 birth_year = 2011
 current_year = 2026
-age = birth_year - current_year
+age = current_year - birth_year
 
 print (age)
+
+
+# nomer 3
+numberI = 10
+numberF = 20 
+numberH = 30
+numberV = 40
+numberD = 50
+
+print (numberI+numberF+numberH+numberV+numberD)
+
+
 
 # variables are dynamically created when you assign a value to them
 # example:
