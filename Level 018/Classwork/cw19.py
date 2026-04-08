@@ -1,0 +1,12 @@
+number = int(input("enter a number"))
+positive = 0
+negative = 0
+while number != 0:
+    if number < 0:
+        negative += 1
+        number = int(input("enter a number"))
+    elif number > 0:
+        positive += 1
+        number = int(input("enter a number again (0 to stop)"))
+print("positive" + str(positive))
+print("negative" + str(negative))
