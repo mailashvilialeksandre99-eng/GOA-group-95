@@ -1,0 +1,273 @@
+# nomer 1
+# CSS-ში სელექტორები გამოიყენება იმისთვის, რომ ავირჩიოთ HTML ელემენტები და მათზე სტილები გამოვიყენოთ. ყველაზე გავრცელებული სელექტორ
+# ებია
+
+# nomer 2
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>ეს არის პირველი აბზაცი.</p>
+    <p>ეს არის მეორე აბზაცი.</p>
+    <p>ეს არის მესამე აბზაცი.</p>
+
+</body>
+</html>
+
+<!-- nomer 3 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            background-color: lightgray;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        ეს არის პირველი div.
+    </div>
+
+    <div class="box">
+        ეს არის მეორე div.
+    </div>
+
+</body>
+</html>
+
+<!-- nomer 4 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .text {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="text">ეს არის პირველი აბზაცი.</p>
+    <p class="text">ეს არის მეორე აბზაცი.</p>
+    <p>ეს არის მესამე აბზაცი.</p>
+
+</body>
+</html>
+
+<!-- nomer 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #title {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="title">Welcome</h1>
+
+</body>
+</html>
+
+<!-- nomer 6 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #button1 {
+            background-color: blue;
+            color: white;
+        }
+
+        #button2 {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="button1">Button 1</button>
+    <button id="button2">Button 2</button>
+
+</body>
+</html>
+
+<!-- nomer 7 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p {
+            color: blue;
+        }
+
+        .paragraph {
+            color: green;
+        }
+
+        #demo {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="demo" class="paragraph">
+        This is a paragraph.
+    </p>
+
+</body>
+</html>
+
+<!-- nomer 8 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .btn {
+            background-color: navy;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="btn">ღილაკი 1</button>
+    <button class="btn">ღილაკი 2</button>
+    <button class="btn">ღილაკი 3</button>
+
+</body>
+</html>
+
+<!-- nomer 9 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        .heading {
+            color: green;
+        }
+
+        #main-title {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title" class="heading">
+        Main Title
+    </h1>
+
+</body>
+</html>
+
+<!-- nomer 10 -->
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div class="box">
+        <p class="text">This is the first paragraph.</p>
+        <p class="text">This is the second paragraph.</p>
+        <button>Click Me</button>
+    </div>
+
+</body>
+</html>
+
+<!-- nomer 11 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Tag selector */
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            color: lightblue;
+            font-size: 18px;
+        }
+
+        /* Class selector */
+        .section {
+            background-color: #111;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .text {
+            color: #a0d8ff;
+        }
+
+        .btn {
+            background-color: navy;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* ID selector */
+        #main-title {
+            color: violet;
+        }
+
+        #special {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title">The Milky Way</h1>
+
+    <div class="section">
+        <p class="text">
+            The Milky Way is the galaxy that contains our Solar System.
+        </p>
+
+        <p class="text">
+            It has billions of stars, planets, and cosmic dust.
+        </p>
+
+        <button class="btn">Learn More</button>
+    </div>
+
+    <div class="section">
+        <p id="special">
+            Our Solar System is located in one of the spiral arms of the Milky Way.
+        </p>
+
+        <button class="btn">Explore Space</button>
+    </div>
+
+</body>
+</html>
